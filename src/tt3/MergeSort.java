@@ -9,9 +9,11 @@ public class MergeSort extends Sorts {
 
     private final ArrayList<Integer> data = new ArrayList<>();
     private final Duration timeElapsed;
+    private int size;
 
     public MergeSort(int size) {
         super(size);
+        this.size = size;
         Instant start = Instant.now();  // time capture -- start
         // build an array
         for (int i = 0; i < size; i++) {
@@ -19,7 +21,7 @@ public class MergeSort extends Sorts {
         }
         // use Inheritance and Polymorphism to replace data.sort with your own algorithm
         int arraySize = data.size();
-        sort(data, 0, size - 1);
+
         Instant end = Instant.now();    // time capture -- end
         this.timeElapsed = Duration.between(start, end);
     }
@@ -85,6 +87,9 @@ public class MergeSort extends Sorts {
         return timeElapsed.getNano();
     }
 
+    public int getSize() {
+        return this.size;
+    }
 
     public static void main(String[] args) {
         int sum=0, time=0, TIMES=12, SIZE=5000;

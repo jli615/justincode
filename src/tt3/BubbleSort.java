@@ -50,11 +50,11 @@ public class BubbleSort extends Sorts {
                 // System.out.println(s.getData());
                 sum += s.getData().get(j);
             }
-            System.out.println("Average random: " + sum / ((i+1)*SIZE));
-            System.out.println("Nanoseconds: " + s.getTimeElapsed());
+            //System.out.println("Average random: " + sum / ((i+1)*SIZE));
+            System.out.println(s.getTimeElapsed());
             time += s.getTimeElapsed();
         }
-        System.out.println("Average random: " + sum / (TIMES*SIZE));
+        //System.out.println("Average random: " + sum / (TIMES*SIZE));
         System.out.println("Total Nanoseconds: " + time );
         System.out.println("Total Seconds: " + time /1000000000.0);
     }
