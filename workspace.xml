@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="04e38956-fae5-4048-98cc-1542c4ab308a" name="Changes" comment="all stuff">
+      <change beforePath="$USER_HOME$/IdeaProjects/spring_portfolio" beforeDir="false" afterPath="$USER_HOME$/IdeaProjects/spring_portfolio" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/IdeaProjects" />
+  </component>
+  <component name="ProjectId" id="267CsG3htfbLON6C0yVG42KypOs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Application.MergeSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tt3.BubbleSort" />
+      <module name="Tri3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tt3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tt3.InsertionSort" />
+      <module name="Tri3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tt3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tt3.MergeSort" />
+      <module name="Tri3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tt3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tt3.SelectionSort" />
+      <module name="Tri3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tt3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sorts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tt3.Sorts" />
+      <module name="Tri3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tt3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.InsertionSort" />
+        <item itemvalue="Application.Sorts" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04e38956-fae5-4048-98cc-1542c4ab308a" name="Changes" comment="" />
+      <created>1646765446307</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646765446307</updated>
+      <workItem from="1646765447648" duration="1076000" />
+      <workItem from="1646775230878" duration="721000" />
+      <workItem from="1646929168968" duration="261000" />
+      <workItem from="1646932104403" duration="603000" />
+      <workItem from="1647271553464" duration="162000" />
+      <workItem from="1647271742302" duration="19000" />
+      <workItem from="1647363356582" duration="932000" />
+      <workItem from="1647444565362" duration="3030000" />
+      <workItem from="1647616599996" duration="2684000" />
+      <workItem from="1647707411925" duration="81000" />
+      <workItem from="1647727886476" duration="676000" />
+      <workItem from="1647795786276" duration="3000" />
+      <workItem from="1647801605581" duration="4578000" />
+      <workItem from="1647823625468" duration="8765000" />
+      <workItem from="1647875624588" duration="1802000" />
+      <workItem from="1648224168039" duration="39000" />
+      <workItem from="1648447611011" duration="1005000" />
+      <workItem from="1648448946752" duration="396000" />
+      <workItem from="1648571541567" duration="734000" />
+      <workItem from="1648572884272" duration="131000" />
+      <workItem from="1648573807385" duration="126000" />
+      <workItem from="1648593479915" duration="2000" />
+      <workItem from="1648655284918" duration="371000" />
+      <workItem from="1648739839599" duration="265000" />
+      <workItem from="1648740228806" duration="941000" />
+      <workItem from="1648741554268" duration="395000" />
+      <workItem from="1648827910983" duration="2077000" />
+      <workItem from="1649035560711" duration="9458000" />
+    </task>
+    <task id="LOCAL-00001" summary="all stuff">
+      <created>1647844969068</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1647844969068</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="all stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="all stuff" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
