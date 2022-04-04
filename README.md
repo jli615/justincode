@@ -1,3 +1,2 @@
 # justincode
-This is my read me
-Hello
+This is my read me. Thank you for comming to visit
