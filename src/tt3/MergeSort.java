@@ -9,7 +9,7 @@ public class MergeSort extends Sorts {
 
     private final ArrayList<Integer> data = new ArrayList<>();
     private final Duration timeElapsed;
-
+    private int swaps;
 
     public MergeSort(int size) {
         super(size);
@@ -85,7 +85,8 @@ public class MergeSort extends Sorts {
     public int getTimeElapsed() {
         return timeElapsed.getNano();
     }
-
+    public int getSwaps() { return this.swaps; }
+    public void setSwaps(int newAmt) { this.swaps = newAmt; }
 
     public static void main(String[] args) {
         int sum=0, time=0, TIMES=12, SIZE=5000;
@@ -97,11 +98,12 @@ public class MergeSort extends Sorts {
                 // System.out.println(s.getData());
                 sum += s.getData().get(j);
             }
-            System.out.println("Average random: " + sum / ((i+1)*SIZE));
-            System.out.println("Nanoseconds: " + s.getTimeElapsed());
+            //System.out.println("Average random: " + sum / ((i+1)*SIZE));
+            System.out.println(s.getTimeElapsed());
+            System.out.println(s.getSwaps());
             time += s.getTimeElapsed();
         }
-        System.out.println("Average random: " + sum / (TIMES*SIZE));
+        //System.out.println("Average random: " + sum / (TIMES*SIZE));
         System.out.println("Total Nanoseconds: " + time );
         System.out.println("Total Seconds: " + time /1000000000.0);
     }

@@ -9,6 +9,7 @@ public class SelectionSort extends Sorts {
 
     private final ArrayList<Integer> data = new ArrayList<>();
     private final Duration timeElapsed;
+    private int swaps;
 
     public SelectionSort(int size) {
         super(size);
@@ -24,6 +25,7 @@ public class SelectionSort extends Sorts {
             int index = i;
             for (int j = i; j < arraySize; j++) {
                 if (data.get(j) < min) {
+                    this.swaps++;
                     min = data.get(j);
                     index = j;
                 }
@@ -42,7 +44,7 @@ public class SelectionSort extends Sorts {
     public int getTimeElapsed() {
         return timeElapsed.getNano();
     }
-
+    public int getSwaps() { return this.swaps; }
 
     public static void main(String[] args) {
         int sum=0, time=0, TIMES=12, SIZE=5000;
@@ -55,7 +57,8 @@ public class SelectionSort extends Sorts {
                 sum += s.getData().get(j);
             }
             //System.out.println("Average random: " + sum / ((i+1)*SIZE));
-            System.out.println(s.getTimeElapsed());
+            //System.out.println(s.getTimeElapsed());
+            System.out.println(s.getSwaps());
             time += s.getTimeElapsed();
         }
         //System.out.println("Average random: " + sum / (TIMES*SIZE));

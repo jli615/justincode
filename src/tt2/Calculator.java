@@ -93,7 +93,7 @@ public class Calculator {
                 start = i + 1;
                 multiCharTerm = new StringBuilder();
             } else {
-                // multi character terms: numbers, functions, perhaps non-supported elements
+                // multi character terms: numbers, func.functions, perhaps non-supported elements
                 // Add next character to working term
                 multiCharTerm.append(c);
             }

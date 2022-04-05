@@ -4,8 +4,16 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        IntByReference function = new IntByReference(1);
+        Thread t1 = new Thread(new IntByReference(1));
+        t1.start();
+
+        Thread matrix = new Thread(new Matrix(new int[10][20]));
+        matrix.start();
+
+
         //part 2
-        IntByReference.swapper(21, 16);
+        /**IntByReference.swapper(21, 16);
         IntByReference.swapper(16, 21);
         IntByReference.swapper(16, -1);
         IntByReference.swapper(100, 20);
@@ -17,7 +25,7 @@ public class Main {
 
         Matrix m1 = new Matrix(numbers());
         System.out.println("Numbers Systems:");
-        System.out.println(m1);
+        System.out.println(m1);*/
 
         //part 1
         menu();

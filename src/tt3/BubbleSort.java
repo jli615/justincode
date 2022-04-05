@@ -9,6 +9,7 @@ public class BubbleSort extends Sorts {
 
     private final ArrayList<Integer> data = new ArrayList<>();
     private final Duration timeElapsed;
+    private int swaps;
 
     public BubbleSort(int size) {
         super(size);
@@ -25,6 +26,7 @@ public class BubbleSort extends Sorts {
                     int temp = data.get(j - 1);
                     data.set(j - 1, data.get(j));
                     data.set(j, temp);
+                    this.swaps++;
                 }
         }
         Instant end = Instant.now();    // time capture -- end
@@ -38,7 +40,7 @@ public class BubbleSort extends Sorts {
     public int getTimeElapsed() {
         return timeElapsed.getNano();
     }
-
+    public int getSwaps() { return this.swaps; }
 
     public static void main(String[] args) {
         int sum=0, time=0, TIMES=12, SIZE=5000;
@@ -51,7 +53,8 @@ public class BubbleSort extends Sorts {
                 sum += s.getData().get(j);
             }
             //System.out.println("Average random: " + sum / ((i+1)*SIZE));
-            System.out.println(s.getTimeElapsed());
+            //System.out.println(s.getTimeElapsed());
+            System.out.println(s.getSwaps());
             time += s.getTimeElapsed();
         }
         //System.out.println("Average random: " + sum / (TIMES*SIZE));

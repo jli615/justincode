@@ -1,6 +1,15 @@
-public class Matrix {
+public class Matrix implements Runnable {
     private final int[][] matrix;
 
+    public void run() {
+        Matrix m0 = new Matrix(keypad());
+        System.out.println("Keypad:");
+        System.out.println(m0);
+
+        Matrix m1 = new Matrix(numbers());
+        System.out.println("Numbers Systems:");
+        System.out.println(m1);
+    }
     // store matrix
     public Matrix(int[][] matrix) {
         this.matrix = matrix;

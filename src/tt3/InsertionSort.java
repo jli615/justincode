@@ -9,6 +9,8 @@ public class InsertionSort extends Sorts {
 
     private final ArrayList<Integer> data = new ArrayList<>();
     private final Duration timeElapsed;
+    private int swaps;
+    private int comparisons;
 
     public InsertionSort(int size) {
         super(size);
@@ -24,6 +26,7 @@ public class InsertionSort extends Sorts {
             int index = i - 1;
             while (index >= 0 && data.get(index) > value) {
                 data.set(index + 1, data.get(index));
+                this.swaps++;
                 index--;
             }
             data.set(index + 1, value);
@@ -40,6 +43,8 @@ public class InsertionSort extends Sorts {
         return timeElapsed.getNano();
     }
 
+    public int getSwaps() { return this.swaps; }
+    public int getComparisons() { return this.comparisons; }
 
     public static void main(String[] args) {
         int sum=0, time=0, TIMES=12, SIZE=5000;
@@ -52,7 +57,8 @@ public class InsertionSort extends Sorts {
                 sum += s.getData().get(j);
             }
             //System.out.println("Average random: " + sum / ((i+1)*SIZE));
-            System.out.println(s.getTimeElapsed());
+            //System.out.println(s.getTimeElapsed());
+            System.out.println(s.getSwaps());
             time += s.getTimeElapsed();
         }
         //System.out.println("Average random: " + sum / (TIMES*SIZE));

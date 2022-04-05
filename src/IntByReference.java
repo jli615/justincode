@@ -1,5 +1,14 @@
-public class IntByReference {
+import func.functions;
+
+
+public class IntByReference implements Runnable {
     private int value;
+
+    public void run() {
+        IntByReference.swapper(21, 16);
+        IntByReference.swapper(16, 21);
+        IntByReference.swapper(16, -1);
+    }
 
     // Hack: create IntByReference, swapToLowHighOrder and toString methods
 
