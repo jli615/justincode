@@ -9,13 +9,74 @@ import tt2.Stack;
 
 import java.util.*;
 
-public class Calculator {
+public class Calculator implements Runnable {
     // Key instance variables
     private final String expression;
     private ArrayList<String> tokens;
     private ArrayList<String> reverse_polish;
     private Double result = 0.0;
 
+
+    public void run() {// Random set of test cases
+        Calculator simpleMath = new Calculator("100 + 200  * 3");
+        System.out.println("Simple Math\n" + simpleMath);
+
+        System.out.println();
+
+        Calculator parenthesisMath = new Calculator("(100 + 200)  * 3");
+        System.out.println("Parenthesis Math\n" + parenthesisMath);
+
+        System.out.println();
+
+        Calculator fractionMath = new Calculator("100.2 - 99.3");
+        System.out.println("Fraction Math\n" + fractionMath);
+
+        System.out.println();
+
+        Calculator moduloMath = new Calculator("300 % 200");
+        System.out.println("Modulo Math\n" + moduloMath);
+
+        System.out.println();
+
+        Calculator divisionMath = new Calculator("300/200");
+        System.out.println("Division Math\n" + divisionMath);
+
+        System.out.println();
+
+        Calculator multiplicationMath = new Calculator("300 * 200");
+        System.out.println("Multiplication Math\n" + multiplicationMath);
+
+        System.out.println();
+
+        Calculator allMath = new Calculator("200 % 300 + 5 + 300 / 200 + 1 * 100");
+        System.out.println("All Math\n" + allMath);
+
+        System.out.println();
+
+        Calculator allMath2 = new Calculator("200 % (300 + 5 + 300) / 200 + 1 * 100");
+        System.out.println("All Math2\n" + allMath2);
+
+        System.out.println();
+
+        Calculator allMath3 = new Calculator("200%(300+5+300)/200+1*100");
+        System.out.println("All Math3\n" + allMath3);
+
+        System.out.println();
+
+        Calculator expMath = new Calculator("8 ^ 4");
+        System.out.println("Exponential Math\n" + expMath);
+
+        System.out.println();
+
+        String userInput;
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("What equation would you like to calculate?");
+
+        userInput = input.next();
+        Calculator test = new Calculator(userInput);
+        System.out.print("Result:\n" + test);
+    }
     // Helper definition for supported operators
     private final Map<String, Integer> OPERATORS = new HashMap<>();
     {

@@ -1,3 +1,10 @@
+import LinkedList2.Queue;
+import LinkedList2.QueueTester;
+import tt2.Calculator;
+import tt3.*;
+import java.util.HashMap; // import the HashMap class
+
+
 import java.util.*;
 import java.util.Scanner;
 
@@ -6,13 +13,33 @@ public class Main {
 
         IntByReference function = new IntByReference(1);
         Thread t1 = new Thread(new IntByReference(1));
-        t1.start();
+        //t1.start();
 
         Thread matrix = new Thread(new Matrix(new int[10][20]));
-        matrix.start();
+        //matrix.start();
 
+        Thread queue = new Thread(new QueueTester());
+        //queue.start();
 
-        //part 2
+        Thread calculator = new Thread(new Calculator("1+1"));
+        //calculator.start();
+
+        Thread sorts = new Thread(new Sorts(5000));
+        //sorts.start();
+
+        Thread bSort = new Thread(new BubbleSort(5000));
+        //bSort.start();
+
+        Thread iSort = new Thread(new InsertionSort(5000));
+        //iSort.start();
+
+        Thread mSort = new Thread(new MergeSort(5000));
+        //mSort.start();
+
+        Thread sSort = new Thread(new SelectionSort(5000));
+        //sSort.start();
+
+        //1part 2
         /**IntByReference.swapper(21, 16);
         IntByReference.swapper(16, 21);
         IntByReference.swapper(16, -1);
@@ -28,8 +55,23 @@ public class Main {
         System.out.println(m1);*/
 
         //part 1
-        menu();
 
+        Menu selection = new Menu();
+        int choice = selection.menu();
+
+        Map<Integer, Thread> myElements = new Hashtable<Integer, Thread>(); {
+            myElements.put(1, t1);
+            myElements.put(2, matrix);
+            myElements.put(3, queue);
+            myElements.put(4, calculator);
+            myElements.put(5, sorts);
+            myElements.put(6, bSort);
+            myElements.put(7, iSort);
+            myElements.put(8, mSort);
+            myElements.put(9, sSort);
+        }
+
+        myElements.get(choice).start();
     }
 
     static int[][] keypad() {

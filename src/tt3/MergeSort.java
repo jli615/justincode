@@ -5,11 +5,31 @@ import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Comparator;
 
-public class MergeSort extends Sorts {
+public class MergeSort extends Sorts implements Runnable {
 
     private final ArrayList<Integer> data = new ArrayList<>();
     private final Duration timeElapsed;
     private int swaps;
+
+    public void run() {
+        int sum=0, time=0, TIMES=12, SIZE=5000;
+
+        for(int i=0; i< TIMES; i++) {
+            MergeSort s = new MergeSort(SIZE);
+            for(int j = 0; j<s.getData().size(); j++) {
+                // To see data, uncomment next line
+                // System.out.println(s.getData());
+                sum += s.getData().get(j);
+            }
+            System.out.println("Average random: " + sum / ((i+1)*SIZE));
+            System.out.println("Average time: " + s.getTimeElapsed());
+            System.out.println(s.getSwaps());
+            time += s.getTimeElapsed();
+        }
+        System.out.println("Average random: " + sum / (TIMES*SIZE));
+        System.out.println("Total Nanoseconds: " + time );
+        System.out.println("Total Seconds: " + time /1000000000.0);
+    }
 
     public MergeSort(int size) {
         super(size);
@@ -98,12 +118,12 @@ public class MergeSort extends Sorts {
                 // System.out.println(s.getData());
                 sum += s.getData().get(j);
             }
-            //System.out.println("Average random: " + sum / ((i+1)*SIZE));
-            System.out.println(s.getTimeElapsed());
+            System.out.println("Average random: " + sum / ((i+1)*SIZE));
+            System.out.println("Average time: " + s.getTimeElapsed());
             System.out.println(s.getSwaps());
             time += s.getTimeElapsed();
         }
-        //System.out.println("Average random: " + sum / (TIMES*SIZE));
+        System.out.println("Average random: " + sum / (TIMES*SIZE));
         System.out.println("Total Nanoseconds: " + time );
         System.out.println("Total Seconds: " + time /1000000000.0);
     }
