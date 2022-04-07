@@ -3,10 +3,10 @@
 I'm the best coder in CSA. Trust me. 
 
 # [Week 2](sorts) (Sorts)
-# Week 1 (Linked Lists)
-# Week 0 (Calculator)
-# Tech Talk Notes
-# Deployment
+# [Week 1](linkedlist) (Linked Lists)
+# [Week 0](calculator) (Calculator)
+# [Tech Talk Notes](techtalknotes)
+# [Deployment](deplpoyment)
 
 
 
