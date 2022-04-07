@@ -25,3 +25,4 @@
 - This continues until all that is left is one big substructure that is now ordered.
 - Merge Sort has an O(nlog(n)) complexity. This is because since the structures are split in half over and over again, the # of total operations is proportional to the number of powers of 2 - aka the log.
 	
+### Highlights of Work
