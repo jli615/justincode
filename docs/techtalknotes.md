@@ -8,6 +8,6 @@
 - Queues are a type of data structure in which elements are inserted at the end of a queue and removed from the beginning - first in first out
 - Stacks are a type of data structure in which elements are inserted at the beginning of a queue and removed from the beginning - first in last out
 		
- ## Tech Talk 0 Notes
+## Tech Talk 0 Notes
 - Data Structures are a method of organizing data - variables, sequences, and databases are all data structures. Data structures and algorithms work well together to create otpimized and efficient code.
 - Impaerative paradigms use statements to change a program's state. Object Oriented Paradigms use objects and classes.
