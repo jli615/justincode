@@ -2,9 +2,9 @@
 
 I'm the best coder in CSA. Trust me. 
 
-# Week 3
-# Week 2
-# Week 1
+# Tech Talk Notes
+# Week 2 (Sorts)
+# Week 1 (Linked Lists)
 # Week 0
 
 
