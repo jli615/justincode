@@ -4,6 +4,7 @@
 
 ### Analysis
 - Based on the results and the big o notation, the best sort is Merge Sort because it has the smallest big O notation (nlog(n) is more efficient than n^2)
+- Results from running the algorithms: [Time and Swaps](https://docs.google.com/spreadsheets/u/7/d/1OUK_QME8nq_A_T0iI7AC677uC2ioFfvJhsV4LAzEatE/edit?usp=drive_web&ouid=102960307689219371082)
 	
 ### Bubble Sort
 - In bubble sort, we iterate through the data structure, comparing each consecutive pair of elements to see if they need to be swapped.
