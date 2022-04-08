@@ -6,3 +6,48 @@
 		
 ### Highlights of Work
 
+I thought our use of hashmaps (dictionaries) was interesting and a new way to think about the challenge
+```
+private final Map<String, Integer> OPERATORS = new HashMap<>();
+    {
+        // Map<"token", precedence>
+        OPERATORS.put("sqrt", 2);
+        OPERATORS.put("^", 2);
+        OPERATORS.put("*", 3);
+        OPERATORS.put("/", 3);
+        OPERATORS.put("%", 3);
+        OPERATORS.put("+", 4);
+        OPERATORS.put("-", 4);
+    }
+
+    // Helper definition for supported operators
+    private final Map<String, Integer> SEPARATORS = new HashMap<>();
+    {
+        // Map<"separator", not_used>
+        SEPARATORS.put(" ", 0);
+        SEPARATORS.put("(", 0);
+        SEPARATORS.put(")", 0);
+    }
+```
+  
+If statement to determine what operation to do 
+```
+if (token == "+") {
+                    result = x0 + x1;
+                } else if (token == "-") {
+                    result = x0 - x1;
+                } else if (token == "*") {
+                    result = x0 * x1;
+                } else if (token == "/") {
+                    result = x0 / x1;
+                } else if (token == "%") {
+                    result = x0 % x1;
+                } else if (token == "^") {
+                    result = Math.pow(x0, x1);
+                } else if (token == "sqrt") {
+                    result = Math.sqrt(x1);
+                } else {
+                    result = 0.0;
+                }
+```
+    
