@@ -1,3 +1,5 @@
+{% include navigation.html %}
+
 ## Justin's Github Pages
 
 Justin Li is the GOAT.
