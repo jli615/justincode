@@ -4,6 +4,7 @@
 
 Justin Li is the GOAT.
 
+# [Review Ticket and Links](reviewticket)
 # [Tech Talk Notes](techtalknotes)
 # [Week 3](sorts) (Sorts)
 # [Week 2](calculator) (Calculator)
