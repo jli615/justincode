@@ -1,11 +1,11 @@
 ## Justin's Github Pages
 
-I'm the best coder in CSA. Trust me. 
+Justin Li is the GOAT.
 
-# [Week 2](sorts) (Sorts)
-# [Week 1](linkedlist) (Linked Lists)
-# [Week 0](calculator) (Calculator)
 # [Tech Talk Notes](techtalknotes)
+# [Week 3](sorts) (Sorts)
+# [Week 2](calculator) (Calculator)
+# [Week 1](linkedlist) (Linked Lists)
 # [Deployment](deplpoyment)
 
 
