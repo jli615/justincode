@@ -4,20 +4,21 @@
 
 ### Study Plan
 
-Monday: 
+Monday:
+- Crossover grading
+
+Tuesday: 
 - Practice MCQ
 - Build the study guide 
 
-Tuesday: 
+Wednesday: 
 - Finish the Practice MCQ
 - Reflect on the test and do test corrections
 
-Wednesday: 
-- Take Practice FRQ
-
 Thursday: 
+- Take Practice FRQ 
 - Reflect on the FRQ and make corrections
 - Get the code running on Repl
 
 Friday: 
-- Build the study guide
+- ASI Skit
