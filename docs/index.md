@@ -4,7 +4,8 @@
 
 Justin Li is the GOAT.
 
-# [
+# [Week 2 Study Plan](sweektwo)
+# [Week 1 Study Plan](sweekone)
 # [Practice FRQ](practicefrq)
 # [Review Ticket and Links](reviewticket)
 # [Tech Talk Notes](techtalknotes)
