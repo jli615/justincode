@@ -4,6 +4,7 @@
 
 Justin Li is the GOAT.
 
+# [Week 2 MC](week2mc)
 # [Week 2 Study Plan](sweektwo)
 # [Week 1 Study Plan](sweekone)
 # [Practice FRQ](practicefrq)
