@@ -7,6 +7,8 @@ Justin Li is the GOAT.
 ## DynamoDB Notes
 
 # [AWS DynamoDB Tutorial for Beginners](notes1)
+# [Introduction to SQL](notes2)
+
 
 ## Old Stuff
 
