@@ -4,6 +4,12 @@
 
 Justin Li is the GOAT.
 
+## DynamoDB Notes
+
+# [AWS DynamoDB Tutorial for Beginners](notes1)
+
+## Old Stuff
+
 # [Week 2 FRQ](week2frq)
 # [Week 2 MC](week2mc)
 # [Week 2 Study Plan](sweektwo)
