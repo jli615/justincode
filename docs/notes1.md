@@ -1,3 +1,5 @@
+{% include navigation.html %}
+
 ## Video: AWS DynamoDB Tutorial for Beginners
 
 https://www.youtube.com/watch?v=2k2GINpO308
